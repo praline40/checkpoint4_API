@@ -1,0 +1,19 @@
+elide:
+  json-api:
+    path: /api/v1
+    enabled: true
+  swagger:
+    path: /doc
+    enabled: true
+    version: "1.0"
+
+spring:
+  application:
+    name: Elide
+  jpa:
+    hibernate:
+      show_sql: true
+      dialect: 'org.hibernate.dialect.MySQL5InnoDBDialect'
+
+server:
+  port: 8080
